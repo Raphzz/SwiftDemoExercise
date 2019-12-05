@@ -1,9 +1,9 @@
 //
-//  ViewController.swift
+//  ListPostsViewController.swift
 //  SwiftDemoExercise
 //
-//  Created by Raphael Pedrini Velasqua on 16/12/2018.
-//  Copyright © 2018 raph. All rights reserved.
+//  Created by Raphael Pedrini Velasqua on 05/12/2019.
+//  Copyright © 2019 raph. All rights reserved.
 //
 
 import UIKit

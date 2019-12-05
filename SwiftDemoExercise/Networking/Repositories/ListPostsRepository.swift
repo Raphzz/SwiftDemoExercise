@@ -2,8 +2,8 @@
 //  ListPostsService.swift
 //  SwiftDemoExercise
 //
-//  Created by Raphael Pedrini Velasqua on 16/12/2018.
-//  Copyright © 2018 raph. All rights reserved.
+//  Created by Raphael Pedrini Velasqua on 05/12/2019.
+//  Copyright © 2019 raph. All rights reserved.
 //
 
 import Foundation
@@ -14,7 +14,7 @@ protocol ListPostsRepositoryProtocol: class {
 
 final class ListPostsRepository: ListPostsRepositoryProtocol {
 
-    private let cache = CacheHandler()
+    private let cache = CacheManager()
 
     func loadData(complete: @escaping ([Post]?) -> ()) {
 

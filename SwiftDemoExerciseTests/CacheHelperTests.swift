@@ -2,8 +2,8 @@
 //  CacheHelperTests.swift
 //  SwiftDemoExerciseTests
 //
-//  Created by Raphael Pedrini Velasqua on 16/12/2018.
-//  Copyright © 2018 raph. All rights reserved.
+//  Created by Raphael Pedrini Velasqua on 05/12/2019.
+//  Copyright © 2019 raph. All rights reserved.
 //
 
 import XCTest
@@ -12,7 +12,7 @@ import XCTest
 
 class CacheHelperTests: XCTestCase {
 
-    private let cacheHelper = CacheHandler()
+    private let cacheHelper = CacheManager()
 
     private let mockPostsResponse = PostsMockResponse()
 
